@@ -1,0 +1,52 @@
+{
+  "name": "favored-ui",
+  "version": "0.0.7",
+  "description": "favored-ui",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "main": "lib/favored-cjs.js",
+  "module": "lib/favored-es.js",
+  "bugs": {
+    "url": "https://github.com/yq979292/style-iarco-engineering/issues"
+  },
+  "homepage": "https://github.com/yq979292/style-iarco-engineering#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yq979292/style-iarco-engineering.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "fengsaikang"
+  ],
+  "author": "qianshen",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-replace": "^4.0.0",
+    "@vue/compiler-sfc": "^3.2.37",
+    "autoprefixer": "^8.0.0",
+    "cssnano": "^5.1.12",
+    "rollup": "^2.77.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-scss": "^3.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-vue": "^5.1.9",
+    "vue-template-compiler": "^2.7.8"
+  },
+  "files": [
+    "lib",
+    "css",
+    "package.json",
+    "README.md"
+  ],
+  "devDependencies": {
+    "sass": "^1.54.3"
+  }
+}
